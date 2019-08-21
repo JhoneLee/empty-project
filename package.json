@@ -1,0 +1,39 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config ./config/webpack.dev.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-async-to-generator": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "superagent": "^4.0.0",
+    "superagent-no-cache": "^0.1.1",
+    "url-loader": "^1.1.2"
+  }
+}
